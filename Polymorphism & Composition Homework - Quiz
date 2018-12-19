@@ -1,0 +1,55 @@
+# Polymorphism & Composition Homework - Quiz
+
+# Polymorphism
+
+
+1. What does the ___word___ 'polymorphism' mean?
+
+Poly, is many. And morph is to change. So something that has many different forms
+
+
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+   We can have an Animal superclass, the animal cat inherits all its classes. We can now create a 
+   New animal using the cat constructor.
+
+
+3. What can we use to implement polymorphism in Java?
+
+   We can add different object types to an array.
+
+
+4. How many 'forms' can an object take when using polymorphism?
+
+   As many as we have implemented.
+
+
+5. Give an example of when you could use polymorphism.
+
+   You could have an Animal array with all our animals inside. We can now loop through our
+   whole animal collection, and use any method in the super.
+
+
+# Composition
+
+6. What do we mean by 'composition' in reference to object-oriented programming?
+
+   We have multiple components within a parent object.
+
+
+7. When would you use composition? Provide a simple example in Java.
+
+   You could have pc component parts within a pc object, and you can instantiate the parts
+   then, when you instantiate the pc object, you have all the components inside that object, the
+   Pc master object can now access all the component methods. 
+
+
+8. What is/are the advantage(s) of using composition?
+
+   You gain access to the full set of methods of any class its implemented.
+   You can have multiple objects use the components.
+
+
+9. What happens to the behaviours when the object composed of them is destroyed?
+
+   You lose them.
